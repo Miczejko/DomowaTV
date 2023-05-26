@@ -7,7 +7,7 @@ import Logout from "./Pages/Logout/Logout";
 function App() {
 
   return (
-    <div>
+    <div >
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Login/>}/>
