@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .default-transition {
+    @apply transition-all duration-300 ease-in-out
+  }
+}
